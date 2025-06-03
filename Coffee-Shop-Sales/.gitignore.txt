@@ -1,0 +1,12 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Excel temporary files
+~$*.xlsx
+*.tmp
+
+# Ignore Windows thumbs.db
+Thumbs.db
+
+# Ignore pipenv or virtual environments (if any)
+venv/
