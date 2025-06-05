@@ -90,7 +90,7 @@ The single file **`Coffee Shop Sales.xlsx`** contains **three sheets**:
    - `Transactions_processed`: Confirm new columns (Revenue, Month, Weekday, Hour).
 
 5. **Visit the Dashboard**
-   - Click the `Dashboard sheet.`
+   - Click the `Dashboard` sheet.
    - Use the **Store Location** slicer (top-left) to filter by “Astoria,” “Hell’s Kitchen,” “Lower Manhattan,” or view all.
    - Hover over chart elements to see precise values.
 
