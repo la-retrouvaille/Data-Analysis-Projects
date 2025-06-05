@@ -68,7 +68,7 @@ The single file **`Coffee Shop Sales.xlsx`** contains **three sheets**:
      - Top-15 Product Categories (by Transactions & Revenue)  
      - **Store Location** Slicer (Astoria, Hell’s Kitchen, Lower Manhattan)
 
-![Dashboard Screenshot](images/dashboard.png) 
+![Dashboard Screenshot](dashboard.PNG)
 
 ---
 
@@ -127,7 +127,7 @@ The single file **`Coffee Shop Sales.xlsx`** contains **three sheets**:
 
 - **coffee-shop-sales/**
   - [Coffee Shop Sales.xlsx](Coffee%20Shop%20Sales.xlsx) ← Complete workbook (all three sheets)
-  - [images/dashboard.png](images/dashboard.png) ← Screenshot of the dashboard
+  - [dashboard.PNG](dashboard.PNG) ← Screenshot of the dashboard
   - [README.md](README.md) ← This file  
 
 > *Note: The entire analysis lives in `Coffee Shop Sales.xlsx`. No extra folders or scripts are required.*
