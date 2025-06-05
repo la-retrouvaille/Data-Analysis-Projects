@@ -100,7 +100,7 @@ The single file **`Coffee Shop Sales.xlsx`** contains **three sheets**:
 
 | 🔢 Metric                         | 📊 Value              |
 |:---------------------------------:|:---------------------:|
-| **Total Revenue (Jan–Jun 2023)**  | \$590,000 (approx.)   |
+| **Total Revenue (Jan–Jun 2023)**  | \£590,000 (approx.)   |
 | **Total Transactions**            | 149,116               |
 | **Peak Month**                    | June 2023             |
 | **Top Product Category**          | Coffee (39 % of orders) |
@@ -109,7 +109,7 @@ The single file **`Coffee Shop Sales.xlsx`** contains **three sheets**:
 **Top 3 Insights:**  
 
 1. **Revenue Growth**  
-   Revenue rose from ~\$81 K in January to ~\$166 K in June (warm weather + tourist season boost).
+   Revenue rose from ~\£81 K in January to ~\£166 K in June (warm weather + tourist season boost).
 
 2. **Peak Transaction Windows**  
    - **Morning Rush (08 AM–10 AM):** ~20 % of daily orders  
