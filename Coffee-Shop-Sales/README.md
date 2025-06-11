@@ -133,6 +133,7 @@ Hell’s Kitchen leads slightly (*$236.5K*), with Astoria (*$232.2K*) and Lower 
 - **coffee-shop-sales/**
   - [Coffee Shop Sales.xlsx](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/Coffee-Shop-Sales/Coffee%20Shop%20Sales.xlsx) <- Complete workbook (all three sheets)
   - [Coffee-Shop-Sales-Dashboard.PNG](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/Coffee-Shop-Sales/Coffee-Shop-Sales-Dashboard.PNG) <- Screenshot of the dashboard
+  - [.gitignore](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/Coffee-Shop-Sales/.gitignore) <- Git rules: files/directories to ignore
   - [README.md](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/Coffee-Shop-Sales/README.md) <- This file  
 
 > *Note: The entire analysis lives in `Coffee Shop Sales.xlsx`. No extra folders or scripts are required.*
@@ -172,7 +173,7 @@ Microsoft Excel (PivotTables, PivotCharts, Slicers).
 
 ## 👩‍💻 Licence & Credit
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/LICENSE) file for details.
 
 - **Data Source:** Fictional Maven Roasters POS Logs (Jan-Jun 2023) from Maven Analytics
 - **Emojis & Icons:** [Emojipedia](https://emojipedia.org/)
