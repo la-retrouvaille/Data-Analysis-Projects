@@ -7,68 +7,57 @@
 ## 📋 Table of Contents
 
 1. [✨ Project Overview](#-project-overview)  
-2. [📂 Workbook Contents](#-workbook-contents)  
+2. [📂 Data](#-data)  
 3. [🚀 How to Open & Use](#-how-to-open--use)  
-4. [🔍 Quick Findings](#-quick-findings)  
-5. [📁 Folder Structure (Git Repo)](#-folder-structure-git-repo)  
-6. [🔧 Next Steps & Recommendations](#-next-steps--recommendations)  
-7. [👩‍💻 Credits & References](#-credits--references)  
+4. [🔍 Key Findings](#-key-findings)  
+5. [📁 Folder Structure (Git Repo)](#-folder-structure-git-repo)
+6. [💻 Tech Stack & Dependencies](#-tech-stack--dependencies)
+7. [💡 Next Steps & Optional Enhancements](#-next-steps--optional-enhancements)  
+8. [👩‍💻 Licence & Credit](#-licence--credit)
+9. [📧 Contact](#-contact)
 
 ---
 
 ## ✨ Project Overview
 
-Welcome to the **Coffee Shop Dashboard**! ☕  
-Maven Roasters is a fictional small coffee-shop chain with three locations in New York City:  
-- **Astoria**  
-- **Hell’s Kitchen**  
-- **Lower Manhattan**  
+### Situation:
 
-Between January and June 2023, every item-level transaction was recorded in Excel. 
+Maven Roasters is a fictional small coffee-shop chain with three locations in New York City: *Astoria*, *Hell's Kitchen*, *Lower Manhattan*. During Jan-Jun 2023, every item-level transaction was recorded in Excel.
 
-🎯 **The goal** is to transform the data into a dynamic dashboard that can be used to identify patterns, trends and opportunities for the business. 
+### Goal: 
 
-This project demonstrates:
+Turn raw transactions into insights for franchisees, in order to identify patterns, trends and opportunities for the business. 
 
-- **Data Preparation:**  
-  - Clean raw transaction data  
-  - Compute derived fields (Revenue, Month, Weekday, Hour)  
-
-- **Pivot Analysis:**  
-  - Slice sales by Month, Day of Week, Hour, and Product Category  
-
-- **Interactive Dashboard:**  
-  - Combine PivotCharts + Slicers for a filterable view by store location  
-
+### Tasks:
+- Prepare the raw data (calculate revenue, extract dates/times)
+- Explore via PivotTables (monthly revenue, hourly/day-of-week patterns, product rankings)
+- Build a dynamic dashboard with PivotCharts and a location slicer
+  
 ---
 
-## 📂 Workbook Contents
+## 📂 Data
 
+All data is **fictional** (sourced from Maven Analytics).  
 The single file **`Coffee Shop Sales.xlsx`** contains **three sheets**:
 
 1. **`Transactions_raw`**  
-   - Original POS export (149,116 rows)  
-   - Columns include:  
-     - `transaction_date` (YYYY-MM-DD)  
-     - `transaction_time` (HH:MM:SS)  
-     - `store_location` (“Astoria”, “Hell’s Kitchen”, “Lower Manhattan”)  
-     - `product_category`, `unit_price`, `transaction_qty`, …  
-
+   - Original POS export
+     
 2. **`Transactions_processed`**  
    - Same rows with **calculated fields**:  
-     - **Revenue** = `unit_price × transaction_qty`  
-     - **Month** (1–6) & **Month Name** (“Jan”–“Jun”)  
-     - **Weekday** (1–7) & **Weekday Name** (“Mon”–“Sun”)  
-     - **Hour** (0–23)  
+     - Revenue
+     - Month (1-6) & Month Name ("Jan"-"Jun")  
+     - Weekday (1-7) & Weekday Name ("Mon"-"Sun")  
+     - Hour (0-23)  
 
 3. **`Dashboard`**  
-   - **PivotCharts** + **Slicers** arranged on one sheet:  
+   - **PivotCharts** + **Slicer** arranged on one sheet:  
      - Monthly Revenue Trend  
      - Transactions by Day of Week & Hour  
      - Top-15 Product Categories (by Transactions & Revenue)  
      - **Store Location** Slicer (Astoria, Hell’s Kitchen, Lower Manhattan)
 
-![Dashboard Screenshot](dashboard.PNG)
+![Dashboard Screenshot](Coffee-Shop-Sales-Dashboard.PNG)
 
 ---
 
@@ -76,10 +65,10 @@ The single file **`Coffee Shop Sales.xlsx`** contains **three sheets**:
 
 1. **Download / Clone**  
    ```bash
-   git clone https://github.com/yourusername/Data-Analysis-Projects.git
+   git clone https://github.com/la-retrouvaille/Data-Analysis-Projects/tree/main
    cd Data-Analysis-Projects/coffee-shop-sales
 
-*– or simply download* `Coffee Shop Sales.xlsx.`
+*- or simply download* `Coffee Shop Sales.xlsx.`
 
 2. **Open in Excel (2016 or later)**
    - Double-click `Coffee Shop Sales.xlsx`
@@ -91,68 +80,109 @@ The single file **`Coffee Shop Sales.xlsx`** contains **three sheets**:
 
 5. **Visit the Dashboard**
    - Click the `Dashboard` sheet.
-   - Use the **Store Location** slicer (top-left) to filter by “Astoria,” “Hell’s Kitchen,” “Lower Manhattan,” or view all.
+   - Use the **Store Location** slicer (top-left) to filter by "Astoria", "Hell’s Kitchen", "Lower Manhattan", or view all.
    - Hover over chart elements to see precise values.
 
 ---
 
-## 🔍 Quick Findings
+## 🔍 Key Findings
 
-| 🔢 Metric                         | 📊 Value              |
-|:---------------------------------:|:---------------------:|
-| **Total Revenue (Jan–Jun 2023)**  | \£590,000 (approx.)   |
-| **Total Transactions**            | 149,116               |
-| **Peak Month**                    | June 2023             |
-| **Top Product Category**          | Coffee (39 % of orders) |
-| **Busiest Hour**                  | 08:00 – 10:00 AM       |
+- **Strong Month-over-Month Growth**  
 
-**Top 3 Insights:**  
+Revenue climbed steadily from *$76.1K* in February to *$166.5K* in June; a **119% increase** in just four months, with the largest jump between April (*$118.9K*) and May (*$156.7K*).  
 
-1. **Revenue Growth**  
-   Revenue rose from ~\£81 K in January to ~\£166 K in June (warm weather + tourist season boost).
+- **Friday & 10 AM Are Peak**
+  
+**Friday** has the highest transaction volume (*21,701*), while **Saturday** is the slowest (*20,510*).  
+The busiest single hour is **10 AM** (*18,545 transactions*), likely by the breakfast rush.
+    
+- **Coffee Dominates, Tea a Close Second**
+   
+The **Coffee** category accounts for *58,416* item-level transactions, followed by **Tea** (*45,449*) and **Bakery** (*22,796*).
+    
+- **Top 3 Products by Volume**
+  
+  1. **Brewed Chai tea**: *17,183* transactions (*$77.1K*)  
+  2. **Gourmet brewed coffee**: *16,912* transactions (*$70.0K*)  
+  3. **Barista Espresso**: *16,403* transactions (*$91.4K*) - highest revenue per sale (~$5.58)
+     
+- **Locations Are Evenly Matched**  
 
-2. **Peak Transaction Windows**  
-   - **Morning Rush (08 AM–10 AM):** ~20 % of daily orders  
-   - **Afternoon Lull (02 PM–04 PM):** ~10 % of daily orders  
-   - **Evening Drop (after 07 PM):** < 5 % of daily orders
-
-3. **Category Breakdown**  
-   - **Coffee:** 58,416 orders (39 %)  
-   - **Tea:** 45,449 orders (30 %)  
-   - **Bakery:** 22,796 orders (15 %)
+Hell’s Kitchen leads slightly (*$236.5K*), with Astoria (*$232.2K*) and Lower Manhattan (*$230.1K*) very close behind.
 
 ---
 
-## 📁 Folder Structure
+### Recommendations
+
+1. **Optimize Staffing & Hours**  
+   - Staff more baristas between **8 AM-11 AM**, especially on **Fridays**, to handle peak loads.  
+   - Consider light coverage or targeted promotions during the early afternoon slump (12-2 PM).
+
+2. **Promote High-Margin Items**  
+   - Upsell or bundle **Barista Espresso** (highest revenue per transaction) with bakery items.  
+   - Feature **Gourmet brewed coffee** and **Chai tea** in loyalty rewards to drive repeat visits.
+
+3. **Target Slow Periods**  
+   - Launch a **“February Warm-Up”** promo (e.g., discount on hot chocolate) to mitigate winter lull.  
+   - Use targeted email or app notifications when foot traffic is forecasted to dip.
+
+---
+
+## 📁 Folder Structure (Git Repo)
 
 - **coffee-shop-sales/**
-  - [Coffee Shop Sales.xlsx](Coffee%20Shop%20Sales.xlsx) ← Complete workbook (all three sheets)
-  - [dashboard.PNG](dashboard.PNG) ← Screenshot of the dashboard
-  - [README.md](README.md) ← This file  
+  - [Coffee Shop Sales.xlsx](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/Coffee-Shop-Sales/Coffee%20Shop%20Sales.xlsx) <- Complete workbook (all three sheets)
+  - [Coffee-Shop-Sales-Dashboard.PNG](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/Coffee-Shop-Sales/Coffee-Shop-Sales-Dashboard.PNG) <- Screenshot of the dashboard
+  - [README.md](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/Coffee-Shop-Sales/README.md) <- This file  
 
 > *Note: The entire analysis lives in `Coffee Shop Sales.xlsx`. No extra folders or scripts are required.*
 
 ---
 
-## 🔧 Next Steps & Recommendations
+## 💻 Tech Stack & Dependencies
 
-💡 *Optional Enhancements:*  
-- **Add Weather Data**  
-  Merge daily temperature/precipitation to analyze weather vs. sales correlations.
-
-- **Compare Advanced Models**  
-  Export `Transactions_processed` to CSV and build Python/R models for improved forecasting beyond Excel capabilities.
-
-- **Interactive Web Dashboard**  
-  Use Power BI or Tableau to host a web-accessible version so stakeholders without Excel can explore filters live.
-
-- **Automate Data Refresh**  
-  Create a simple Python script to fetch new POS data daily and auto-refresh PivotTables.
+Microsoft Excel (PivotTables, PivotCharts, Slicers).
 
 ---
 
-## 👩‍💻 Credits & References
+## 💡 Next Steps & Optional Enhancements
+ 
+- **Add Weather Data**  
 
-- **Data Source:** Fictional Maven Roasters POS Logs (Jan–Jun 2023) from Maven Analytics
+  Merge daily temperature/precipitation to analyze weather vs. sales correlations.
 
-*Thank you for exploring this Coffee Shop Dashboard! Feel free to ⭐ the repo if you found it helpful.*  
+- **Compare Advanced Models**  
+
+  Export `Transactions_processed` to CSV and build Python/R models for improved forecasting beyond Excel capabilities.
+
+- **Interactive Web Dashboard**  
+
+  Use Power BI to host a web-accessible version so stakeholders without Excel can explore filters live.
+
+- **Automate Data Refresh**  
+
+  Create a simple Python script to fetch new POS data daily and auto-refresh PivotTables.
+
+- **Location-Specific Insights**
+
+  Compare day-part performance by store to tailor local promotions.
+  Analyze demographic or foot-traffic data around each café to inform menu or pricing strategies.    
+
+---
+
+## 👩‍💻 Licence & Credit
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+- **Data Source:** Fictional Maven Roasters POS Logs (Jan-Jun 2023) from Maven Analytics
+- **Emojis & Icons:** [Emojipedia](https://emojipedia.org/)
+
+---
+
+## 📧 Contact
+
+Egi Aliaj
+
+[GitHub](https://github.com/la-retrouvaille) | [LinkedIn](https://www.linkedin.com/in/egialiaj/)
+
+*Thank you for exploring this project! Feel free to ⭐ the repo if you found it helpful.*  
