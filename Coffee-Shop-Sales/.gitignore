@@ -1,0 +1,60 @@
+# =====================================
+# Coffee Shop Dashboard - .gitignore
+# =====================================
+
+# --- macOS system files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Windows system files ---
+Thumbs.db
+ehthumbs.db
+
+# --- Office/Excel temp files ---
+~$*
+
+# --- Logs and databases ---
+*.log
+*.sqlite
+*.db
+
+# --- Python artifacts (in the case i add later scripts) ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+env/
+venv/
+ENV/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.ipynb_checkpoints/
+
+# --- IDE/editor settings ---
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- Node modules (if ever used) ---
+node_modules/
+
+# --- Coverage/Testing ---
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# --- Miscellaneous ---
+*.swp
+*.bak
+*.tmp
