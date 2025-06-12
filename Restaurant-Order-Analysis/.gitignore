@@ -1,1 +1,38 @@
+# =====================================
+# Restaurant Order Analysis - .gitignore
+# =====================================
 
+# — Local database files
+*.db
+*.sqlite
+*.sqlitedb
+
+# — SQL Server backup files (Microsoft .bak)
+*.bak
+
+# — Exported data & logs
+*.csv
+*.log
+
+# — Environment files (credentials, connection strings)
+.env
+.env.*.local
+
+# — macOS  
+.DS_Store
+
+# — Windows  
+Thumbs.db
+
+# — IDE / Editor settings  
+.vscode/
+.idea/
+*.code-workspace
+
+# — Python caches (if i ever add Python tooling)  
+__pycache__/
+*.py[cod]
+
+# — Other temp files  
+*.tmp
+*~
