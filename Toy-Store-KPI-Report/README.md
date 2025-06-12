@@ -83,10 +83,10 @@ All source data is provided as CSV files.
 
 2. **Open the Power BI report**
 
- - Launch Power BI Desktop
- - Open `Maven_Toys_KPI_Report.pbix`
- - Verify data source settings
- - Refresh the model and explore the dashboard
+  - Launch Power BI Desktop
+  - Open `Maven_Toys_KPI_Report.pbix`
+  - Verify data source settings
+  - Refresh the model and explore the dashboard
 
 ---
 
@@ -114,7 +114,7 @@ All source data is provided as CSV files.
 
 ## 📁 Folder Structure (Git Repo)
 
-**/Toy-Store-KPI-Report/
+**/Toy-Store-KPI-Report**
 
   - [Maven_Toys_KPI_Report.pbix](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/Toy-Store-KPI-Report/Maven_Toys_KPI_Report.pbix) <- PowerBI Dashboard
 
