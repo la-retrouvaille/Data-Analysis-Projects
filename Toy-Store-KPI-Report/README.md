@@ -82,11 +82,11 @@ All source data is provided as CSV files.
    cd data-analysis-projects/toy-store-kpi-report
 
 2. **Open the Power BI report**
-
-  - Launch Power BI Desktop
-  - Open `Maven_Toys_KPI_Report.pbix`
-  - Verify data source settings
-  - Refresh the model and explore the dashboard
+   
+   - Launch Power BI Desktop
+   - Open `Maven_Toys_KPI_Report.pbix`
+   - Verify data source settings
+   - Refresh the model and explore the dashboard
 
 ---
 
