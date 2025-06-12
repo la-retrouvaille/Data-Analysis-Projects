@@ -190,7 +190,7 @@ The schema and sample data are created via the **`create_restaurant_db.sql`** sc
   - [menu_items_analysis.sql](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/Restaurant-Order-Analysis/menu_items_analysis.sql) <- Script to analyze menu items
 
   - [order_details_analysis.sql](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/Restaurant-Order-Analysis/order_details_analysis.sql) <- Script to analyze orders
-  - 
+    
   - [customer_behavior_analysis.sql](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/Restaurant-Order-Analysis/customer_behavior_analysis.sql) <- Script to analyze customer behaviour
 
   - [.gitignore](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/Restaurant-Order-Analysis/.gitignore) <- Git rules: files/directories to ignore
