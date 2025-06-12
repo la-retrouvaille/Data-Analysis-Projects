@@ -84,11 +84,11 @@ There's a strong positive relationship between capacity and price. Studios (1 gu
     
 - **New Hosts & Average Price Over Time**
 
-  - New Hosts: Host registrations rose steadily from 4 in 2008 to a peak of 12,147 in 2015. After the 2015 regulatory changes, new listings dropped ~27%, falling to 8,871 in 2016.
+  - Host registrations rose steadily from 4 in 2008 to a peak of 12,147 in 2015. After the 2015 regulatory changes, new listings dropped ~27%, falling to 8,871 in 2016.
 
     ![New Airbnb Hosts over time](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/AirBnB-Listing-Analysis/Screenshots/New%20Airbnb%20Hosts%20over%20time.PNG)
   
-  - Average Price: Prices were around €100 in 2014, ticked up to €103 in 2015, and then climbed further into the €130-€140 range by 2018-2020, indicating that while supply growth slowed, pricing power remained strong.
+  - Prices were around €100 in 2014, ticked up to €103 in 2015, and then climbed further into the €130-€140 range by 2018-2020, indicating that while supply growth slowed, pricing power remained strong.
 
      ![Average Price over time](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/AirBnB-Listing-Analysis/Screenshots/Average%20Price%20over%20time.PNG)
 
