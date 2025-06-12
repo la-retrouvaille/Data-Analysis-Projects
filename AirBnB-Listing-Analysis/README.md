@@ -94,6 +94,9 @@ There's a strong positive relationship between capacity and price. Studios (1 gu
 
     
 - **2015 Regulations Lead to Fewer New Hosts, Higher Prices**
+
+ Host growth sharply declines post-regulation, yet average prices continue an upward trajectory; highlighting that regulatory caps constrained supply without depressing price levels.
+ 
   ![2015 Regulations](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/AirBnB-Listing-Analysis/Screenshots/2015%20Regulations.PNG)
 
 ---
