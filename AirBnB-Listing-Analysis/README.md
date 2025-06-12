@@ -57,13 +57,8 @@ cd Data-Analysis-Projects/AirBnB-Listing-Analysis
 2. **Install dependencies**
 ```bash
 pip install -r requirements.txt
-``` 
-
-3. **Launch Jupyter Notebook**
-```bash
 jupyter notebook
-```
-
+``` 
 Open `AirBnB_Listings_Analysis_notebook.ipynb` and run all cells.
 
 ---
@@ -120,6 +115,8 @@ There's a strong positive relationship between capacity and price. Studios (1 gu
   - [paris_listings_sample.csv](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/AirBnB-Listing-Analysis/paris_listings_sample.csv) <- Sample Data
 
   - [AirBnB_Listings_Analysis_notebook.ipynb](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/AirBnB-Listing-Analysis/AirBnB_Listings_Analysis_notebook.ipynb) <- Jupyter Notebook with Code & Visualizations
+ 
+  - [requirements.txt](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/AirBnB-Listing-Analysis/requirements.txt) <- Requirements to run 
 
   - [.gitignore](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/AirBnB-Listing-Analysis/.gitignore) <- Git rules: files/directories to ignore
 
