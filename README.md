@@ -8,6 +8,7 @@ A collection of Data Analysis Projects in Excel, SQL, Python & PowerBI
 Below is a list of the projects currently in this repository. Click any link to jump to that project’s folder and view its dedicated README and files.
 
 - **[Coffee Shop Sales Dashboard](https://github.com/la-retrouvaille/Data-Analysis-Projects/tree/main/Coffee-Shop-Sales)**
+
   *A straightforward Excel-based analysis and interactive dashboard for Maven Roasters (three NYC locations, Jan-Jun 2023).*
 
 - **[Restaurant-Order-Analysis](https://github.com/la-retrouvaille/Data-Analysis-Projects/tree/main/Restaurant-Order-Analysis)**  
