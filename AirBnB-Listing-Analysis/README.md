@@ -41,7 +41,8 @@ Leadership has asked to analyze Paris listings, with a focus on pricing, and to 
 *All data was sourced from Maven Analytics*
 
 **`paris_listings_sample.csv`**  
-   - As the raw listings data was too big to upload on github, I've only uploaded the Paris sample. However the whole overview along with any step can be found on `AirBnB_Listings_Analysis_notebook.ipynb`
+
+> *Note: As the raw listings data was too big to upload on github, I've only uploaded the Paris sample. However the whole overview along with any step can be found on `AirBnB_Listings_Analysis_notebook.ipynb`*
 
 ---
 
