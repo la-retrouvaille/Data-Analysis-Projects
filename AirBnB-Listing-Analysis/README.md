@@ -117,7 +117,7 @@ There's a strong positive relationship between capacity and price. Studios (1 gu
 
      -[2015 Regulations.PNG](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/AirBnB-Listing-Analysis/Screenshots/2015%20Regulations.PNG)
 
-  - [paris_listings_sample.csv](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/AirBnB-Listing-Analysis/paris_listings_sample.csv) <- Raw Sample Data
+  - [paris_listings_sample.csv](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/AirBnB-Listing-Analysis/paris_listings_sample.csv) <- Sample Data
 
   - [AirBnB_Listings_Analysis_notebook.ipynb](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/AirBnB-Listing-Analysis/AirBnB_Listings_Analysis_notebook.ipynb) <- Jupyter Notebook with Code & Visualizations
 
