@@ -73,85 +73,74 @@ Open `AirBnB_Listings_Analysis_notebook.ipynb` and run all cells.
 
 The Élysée district tops the list at €210.54, followed by Louvre (€175.38) and Passy (€161.14). This concentration in the city center reflects premium demand and limited supply in historic arrondissements.
 
-![Average Listing Price by Paris Neighbourhood](screenshots/Average-Listing-Price-by-Neighbourhood.PNG) 
+![Average Listing Price by Paris Neighbourhood](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/AirBnB-Listing-Analysis/Screenshots/Average%20Listing%20Price%20by%20Neighbourhood.PNG)
 
-- **Friday & 10 AM Are Peak**
+- **Relationship between capacity and price**
   
-**Friday** has the highest transaction volume (*21,701*), while **Saturday** is the slowest (*20,510*).  
-The busiest single hour is **10 AM** (*18,545 transactions*), likely by the breakfast rush.
+There's a strong positive relationship between capacity and price. Studios (1 guest) average €79.52, two-guest flats hit €155.10, four‑guest apartments €212.10, and larger units (6-8 guests) climb to €356-€406.
+
+![Average Listing Price by Accommodates](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/AirBnB-Listing-Analysis/Screenshots/Average%20Listing%20Price%20by%20Accommodates.PNG)
     
-- **Coffee Dominates, Tea a Close Second**
-   
-The **Coffee** category accounts for *58,416* item-level transactions, followed by **Tea** (*45,449*) and **Bakery** (*22,796*).
-    
-- **Top 3 Products by Volume**
+- **New Hosts & Average Price Over Time**
+
+  - New Hosts: Host registrations rose steadily from 4 in 2008 to a peak of 12,147 in 2015. After the 2015 regulatory changes, new listings dropped ~27%, falling to 8,871 in 2016.
+
+    ![New Airbnb Hosts over time](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/AirBnB-Listing-Analysis/Screenshots/New%20Airbnb%20Hosts%20over%20time.PNG)
   
-  1. **Brewed Chai tea**: *17,183* transactions (*$77.1K*)  
-  2. **Gourmet brewed coffee**: *16,912* transactions (*$70.0K*)  
-  3. **Barista Espresso**: *16,403* transactions (*$91.4K*) - highest revenue per sale (~$5.58)
-     
-- **Locations Are Evenly Matched**  
+  - Average Price: Prices were around €100 in 2014, ticked up to €103 in 2015, and then climbed further into the €130-€140 range by 2018-2020, indicating that while supply growth slowed, pricing power remained strong.
 
-Hell’s Kitchen leads slightly (*$236.5K*), with Astoria (*$232.2K*) and Lower Manhattan (*$230.1K*) very close behind.
+     ![Average Price over time](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/AirBnB-Listing-Analysis/Screenshots/Average%20Price%20over%20time.PNG)
 
----
-
-### Recommendations
-
-1. **Optimize Staffing & Hours**  
-   - Staff more baristas between **8 AM-11 AM**, especially on **Fridays**, to handle peak loads.  
-   - Consider light coverage or targeted promotions during the early afternoon slump (12-2 PM).
-
-2. **Promote High-Margin Items**  
-   - Upsell or bundle **Barista Espresso** (highest revenue per transaction) with bakery items.  
-   - Feature **Gourmet brewed coffee** and **Chai tea** in loyalty rewards to drive repeat visits.
-
-3. **Target Slow Periods**  
-   - Launch a **“February Warm-Up”** promo (e.g., discount on hot chocolate) to mitigate winter lull.  
-   - Use targeted email or app notifications when foot traffic is forecasted to dip.
+    
+- **2015 Regulations Lead to Fewer New Hosts, Higher Prices**
+  ![2015 Regulations](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/AirBnB-Listing-Analysis/Screenshots/2015%20Regulations.PNG)
 
 ---
 
 ## 📁 Folder Structure (Git Repo)
 
-- **coffee-shop-sales/**
-  - [Coffee Shop Sales.xlsx](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/Coffee-Shop-Sales/Coffee%20Shop%20Sales.xlsx) <- Complete workbook (all three sheets)
-  - [Coffee-Shop-Sales-Dashboard.PNG](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/Coffee-Shop-Sales/Coffee-Shop-Sales-Dashboard.PNG) <- Screenshot of the dashboard
-  - [.gitignore](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/Coffee-Shop-Sales/.gitignore) <- Git rules: files/directories to ignore
-  - [README.md](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/Coffee-Shop-Sales/README.md) <- This file  
+- **AirBnB-Listing-Analysis/**
 
-> *Note: The entire analysis lives in `Coffee Shop Sales.xlsx`. No extra folders or scripts are required.*
+   - [Screenshots/](https://github.com/la-retrouvaille/Data-Analysis-Projects/tree/main/AirBnB-Listing-Analysis/Screenshots) <- Output Charts
+
+     -[Average Listing Price by Neighbourhood.PNG](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/AirBnB-Listing-Analysis/Screenshots/Average%20Listing%20Price%20by%20Neighbourhood.PNG)
+
+     -[Average Listing Price by Accommodates.PNG](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/AirBnB-Listing-Analysis/Screenshots/Average%20Listing%20Price%20by%20Accommodates.PNG)
+
+     -[New Airbnb Hosts over time.PNG](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/AirBnB-Listing-Analysis/Screenshots/New%20Airbnb%20Hosts%20over%20time.PNG)
+
+     -[Average Price over time.PNG](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/AirBnB-Listing-Analysis/Screenshots/Average%20Price%20over%20time.PNG)
+
+     -[2015 Regulations.PNG](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/AirBnB-Listing-Analysis/Screenshots/2015%20Regulations.PNG)
+
+  - [paris_listings_sample.csv](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/AirBnB-Listing-Analysis/paris_listings_sample.csv) <- Raw Sample Data
+
+  - [AirBnB_Listings_Analysis_notebook.ipynb](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/AirBnB-Listing-Analysis/AirBnB_Listings_Analysis_notebook.ipynb) <- Jupyter Notebook with Code & Visualizations
+
+  - [.gitignore](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/AirBnB-Listing-Analysis/.gitignore) <- Git rules: files/directories to ignore
+
+  - [README.md](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/AirBnB-Listing-Analysis/README.md) <- This file  
 
 ---
 
 ## 💻 Tech Stack & Dependencies
 
-Microsoft Excel (PivotTables, PivotCharts, Slicers).
+- Python 3.x
+- pandas (data manipulation)
+- matplotlib & seaborn (visualization)
+- Jupyter Notebook (interactive analysis)
 
 ---
 
 ## 💡 Next Steps & Optional Enhancements
  
-- **Add Weather Data**  
-
-  Merge daily temperature/precipitation to analyze weather vs. sales correlations.
-
-- **Compare Advanced Models**  
-
-  Export `Transactions_processed` to CSV and build Python/R models for improved forecasting beyond Excel capabilities.
-
-- **Interactive Web Dashboard**  
-
-  Use Power BI to host a web-accessible version so stakeholders without Excel can explore filters live.
-
-- **Automate Data Refresh**  
-
-  Create a simple Python script to fetch new POS data daily and auto-refresh PivotTables.
-
-- **Location-Specific Insights**
-
-  Compare day-part performance by store to tailor local promotions.
-  Analyze demographic or foot-traffic data around each café to inform menu or pricing strategies.    
+- **Expand to other neighbourhoods/cities**: replicate the same pipeline for other neighbourhoods in Paris or with data from other cities
+  
+- **Version large data**: integrate Git LFS or DVC for the full Listings.csv
+  
+- **Build an interactive dashboard**: use Power BI to share insights with leadership
+  
+- **Deepen analysis**: incorporate host ratings, review counts, and seasonality factors
 
 ---
 
@@ -159,7 +148,7 @@ Microsoft Excel (PivotTables, PivotCharts, Slicers).
 
 This project is licensed under the **MIT License** - see the [LICENSE](https://github.com/la-retrouvaille/Data-Analysis-Projects/blob/main/LICENSE) file for details.
 
-- **Data Source:** Fictional Maven Roasters POS Logs (Jan-Jun 2023) from Maven Analytics
+- **Data Source:** Maven Analytics
 - **Emojis & Icons:** [Emojipedia](https://emojipedia.org/)
 
 ---
