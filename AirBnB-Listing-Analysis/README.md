@@ -73,7 +73,7 @@ Open `AirBnB_Listings_Analysis_notebook.ipynb` and run all cells.
 
 The Élysée district tops the list at €210.54, followed by Louvre (€175.38) and Passy (€161.14). This concentration in the city center reflects premium demand and limited supply in historic arrondissements.
 
-![Average Listing Price by Paris Neighbourhood](Screenshots/Average Listing Price by Neighbourhood.PNG) 
+![Average Listing Price by Paris Neighbourhood](screenshots/Average-Listing-Price-by-Neighbourhood.PNG) 
 
 - **Friday & 10 AM Are Peak**
   
