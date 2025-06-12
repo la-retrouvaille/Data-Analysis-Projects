@@ -1,0 +1,49 @@
+# =====================================
+# Electricity Usage Analysis - .gitignore
+# =====================================
+
+# ==== Byte-compiled / optimized / DLL files ====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==== Jupyter Notebook checkpoints ====
+.ipynb_checkpoints/
+
+# ==== Virtual environments ====
+venv/
+env/
+.venv/
+.ENV/
+ENV/
+
+# ==== macOS / Windows system files ====
+.DS_Store
+Thumbs.db
+
+# ==== IDE / Editor directories ====
+.vscode/
+.idea/
+
+# ==== Python packaging / distribution ====
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==== Logs ====
+*.log
+
+# ==== Large/raw data ====
+raw_data/
+raw_data/**
+
+# ==== SQLite / database files ====
+*.db
+*.sqlite
+*.sqlite3
+
+# ==== Misc ====
+# temporary files
+*.tmp
+*.swp
