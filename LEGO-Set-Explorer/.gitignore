@@ -1,0 +1,31 @@
+# =====================================
+# LEGO Set Explorer - .gitignore
+# =====================================
+
+# macOS / Windows OS Files
+
+.DS_Store
+Thumbs.db
+
+# IDE / Editor Folders
+
+.vscode/
+.idea/
+*.code-workspace
+
+# Power BI Desktop Temp/Backups
+# (your .pbix report stays versioned, but ignore any autosaves or backups)
+*.pbix.tmp
+*.pbit.tmp
+
+# SQL / Database Backups
+*.bak
+*.sql~ 
+
+# Logs & Misc Temp
+*.log
+*.tmp
+*.cache
+
+# Environment & Secrets
+.env
